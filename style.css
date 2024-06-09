@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: border-box;
+    font-family: Arial;
+}
+body{
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);    height: 96.9vh;
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 3vmin;
+    margin-bottom: 5vmin;
+    color: #1b2261;
+    font-weight: 800;
+}
+.msg-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2.5vmin;
+    margin-bottom: 5vmin;
+    font-size: 1.5rem;
+    color: bisque;
+    font-weight: 600;
+    height: 10vh;
+}
+#new-button{
+    padding: 1rem;
+    margin-top: 2.5vmin;
+    border-radius: 3rem;
+    border: none;
+    font-size: 60%;
+    background-color: #004d7a;
+    color: bisque;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.7 );
+}
+.hide{
+    display: none;
+}
+.container{
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.box{
+    height: 50vmin;
+    width: 55vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.9vmin;
+}
+.button1{
+    height: 14vmin;
+    width: 14vmin;
+    border-radius: 1.5rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 2 );
+    font-size: 10vmin;
+    font-weight: 600;
+    cursor: pointer;
+    color: #c70442;
+    background-color: #ffdce7;
+}
+#reset-button{
+    margin-top: 5.5vmin;
+    padding: 1rem;
+    border-radius: 3rem;
+    border: none;
+    font-size: 90%;
+    background-color: #a8eb12;
+    color: #004d7a;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.7 );
+}
+@media (max-width: 480px) {
+    h1{
+        margin-top: 8vh;
+        font-size: 2rem;
+    }
+    .box{
+        margin-top: -20vh;
+    }
+    .msg-container{
+        margin-top: 5vh;
+        font-size: 1.3rem;
+    }
+    #new-button{
+        margin-top: 4vh;
+    }
+    .container{
+        margin-top: 10vmin;
+    }
+    .button1{
+        border-radius: 0.7rem;
+        width: 17vmin;
+        height: 17vmin;
+    }
+    #reset-button{
+        margin-top: 15vmin;
+    }
+}
